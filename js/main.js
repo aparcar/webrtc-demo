@@ -208,4 +208,6 @@ window.onload = function () {
   document.getElementById(
     "title"
   ).innerText = `${config.title} (${config.room})`;
+  document.getElementById("signaling_server").innerText =
+    config.signaling_server;
 };

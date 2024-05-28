@@ -32,3 +32,12 @@ body {
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
+
+#signaling_server {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
